@@ -2,8 +2,17 @@ version: 2
 
 sources:
   - name: atp
-    database: ta  
-    schema: main  
+    database: ta
+    schema: main
     tables:
       - name: raw_atp_matches
-
+      - name: raw_match_date_auopen
+      - name: raw_match_date_rg
+      - name: raw_match_date_usopen
+      - name: raw_match_date_usopen2
+      - name: raw_match_date_wimby
+      - name: raw_match_date_wimby2
+      - name: raw_weather_melbourne
+      - name: raw_weather_ny
+      - name: raw_weather_paris
+      - name: raw_weather_london
