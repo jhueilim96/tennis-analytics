@@ -37,4 +37,25 @@ with win as (
     union all
     select * from lose
 )
-select * from union_
+, reconcile_match as (
+    select * from {{ ref('reconcile_match') }}
+)
+select
+u.match_id
+, u.player_id
+, u.tourney_date
+, rm.match_start_hour
+, is_win
+, ace
+, df
+, svpt
+, "1stIn"
+, "1stWon"
+, "2ndWon"
+, SvGms
+, bpSaved
+, bpFaced
+from union_ u
+left join
+ reconcile_match rm
+ on u.match_id=rm.match_id

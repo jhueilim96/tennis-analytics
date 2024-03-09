@@ -25,14 +25,23 @@ with win as (
 ) , dedupe as (
     select
     player_id
-    , any_value(player_name)
-    , any_value(country)
-    , any_value(age)
-    , any_value(height)
-    , any_value(rank)
-    , any_value(points)
+    , any_value(player_name) as player_name
+    , any_value(country) as country
+    , any_value(age) as age
+    , any_value(height) as height
+    , any_value(rank) as rank
+    , any_value(points) as points
     from union_
     group by (player_id)
 )
-select *
-from union_
+select
+player_id
+, player_name
+, split_part(player_name, ' ', 1) as first_name
+, split_part(player_name, ' ', -1) as last_name
+, country
+, age
+, height
+, rank
+, points
+from dedupe
