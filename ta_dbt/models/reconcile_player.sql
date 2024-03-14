@@ -1,27 +1,23 @@
-with mdt as (
-    select * from {{ ref("slv_match_datetime") }}
-)
-, mdt_player as (
-    select player_1 as player from mdt
-    union
-    select player_2 as player from mdt
-)
-, dedupe as (
+{{ config(materialized='view') }}
+
+with ply_hour as (
     select
-    player as name_short
-    , replace(player, '.', ' ') as name_clean_short
-    from mdt_player group by (player) order by player
+    name_short
+    , name_clean_short
+    from {{ ref("slv_player_match_hour") }}
 )
 , mapping as (
     select * from {{ ref('player_mapping') }}
 )
-, dim_player as (
-    select * from {{ ref("dim_player") }}
+, ply_atp as (
+    select * from {{ ref("slv_player_match_atp") }}
 )
 select
 d.player_id as player_id
 , d.player_name as player_name
 , i.name_short as player_name_short
-from dedupe i
+, name_short
+, name_clean_short
+from ply_hour i
 inner join mapping m on i.name_clean_short = m.player_name_input
-inner join dim_player d on  m.player_name_match = d.player_name
+inner join ply_atp d on  m.player_name_match = d.player_name

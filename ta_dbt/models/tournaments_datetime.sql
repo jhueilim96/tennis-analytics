@@ -36,9 +36,16 @@ data_type_norm as (
     , tour_type
     FROM union_tour
 )
+, hour_bucket as (
 select
-    (time_bucket(INTERVAL '1 hour', datetime)) - INTERVAL '3 hours' as match_start
+    (time_bucket(INTERVAL '1 hour', datetime)) as match_start
     , player_1
     , player_2
     , tour_type
 from data_type_norm
+)
+select
+    *
+    , match_start::DATE as match_date
+    , date_part('hour', match_start) as match_start_hour
+from hour_bucket
