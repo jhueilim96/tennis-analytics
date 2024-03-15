@@ -1,5 +1,9 @@
+{{ config(materialized='table') }}
+
 with raw_ as (
-    select     tourney_id
+    select
+    match_id
+    , tourney_id
     , match_num
     , tourney_name
     , tour_abv
