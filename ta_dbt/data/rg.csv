@@ -1,0 +1,128 @@
+Date,Timestamp,Player 1,Player 2
+20230611,21:10,Djokovic N.,Ruud C.
+20230610,01:10,Ruud C.,Zverev A.
+20230609,21:05,Alcaraz C.,Djokovic N.
+20230608,02:30,Rune H.,Ruud C.
+20230607,22:00,Zverev A.,Etcheverry T. M.
+20230607,02:30,Alcaraz C.,Tsitsipas S.
+20230606,21:15,Djokovic N.,Khachanov K.
+20230606,02:50,Etcheverry T. M.,Nishioka Y.
+20230606,02:35,Dimitrov G.,Zverev A.
+20230605,21:25,Rune H.,Cerundolo F.
+20230605,18:35,Jarry N.,Ruud C.
+20230605,01:20,Ofner S.,Tsitsipas S.
+20230604,23:10,Alcaraz C.,Musetti L.
+20230604,20:45,Djokovic N.,Varillas J. P.
+20230604,17:10,Khachanov K.,Sonego L.
+20230604,02:35,Zverev A.,Tiafoe F.
+20230604,01:50,Altmaier D.,Dimitrov G.
+20230603,22:30,Cerundolo F.,Fritz T.
+20230603,19:10,Jarry N.,Giron M.
+20230603,19:10,Rune H.,Olivieri G. A.
+20230603,19:05,Coric B.,Etcheverry T. M.
+20230603,17:15,Nishioka Y.,Seyboth Wild T.
+20230603,17:10,Zhang Z.,Ruud C.
+20230603,02:30,Alcaraz C.,Shapovalov D.
+20230603,01:20,Varillas J. P.,Hurkacz H.
+20230603,01:10,Schwartzman D.,Tsitsipas S.
+20230603,00:05,Musetti L.,Norrie C.
+20230602,21:15,Djokovic N.,Davidovich Fokina A.
+20230602,20:55,Fognini F.,Ofner S.
+20230602,18:25,Sonego L.,Rublev A.
+20230602,17:15,Khachanov K.,Kokkinakis T.
+20230602,02:30,Zverev A.,Molcan A.
+20230602,02:15,Rinderknech A.,Fritz T.
+20230602,02:15,Rune H. (WO),Monfils G.
+20230602,00:45,Cerundolo F.,Hanfmann Y.
+20230601,23:25,Giron M.,Lehecka J.
+20230601,22:50,Paul T.,Jarry N.
+20230601,22:30,Olivieri G. A.,Vavassori A.
+20230601,21:35,Karatsev A.,Tiafoe F.
+20230601,21:20,Tirante T. A.,Zhang Z.
+20230601,20:50,Pella G.,Seyboth Wild T.
+20230601,20:15,Ruusuvuori E.,Dimitrov G.
+20230601,19:10,Nishioka Y.,Purcell M.
+20230601,18:50,Sinner J.,Altmaier D.
+20230601,18:00,Zeppieri G.,Ruud C.
+20230601,17:10,Coric B.,Cachin P.
+20230601,17:10,Etcheverry T. M.,De Minaur A.
+20230601,02:30,Djokovic N.,Fucsovics M.
+20230601,01:50,Musetti L.,Shevchenko A.
+20230601,00:25,Moutet C.,Rublev A.
+20230531,23:40,Pouille L.,Norrie C.
+20230531,23:35,van Assche L.,Davidovich Fokina A.
+20230531,22:55,Griekspoor T.,Hurkacz H.
+20230531,22:35,Khachanov K.,Albot R.
+20230531,22:25,Alcaraz C.,Daniel T.
+20230531,22:20,Bautista-Agut R.,Varillas J. P.
+20230531,21:35,Arnaldi M.,Shapovalov D.
+20230531,20:05,Schwartzman D.,Borges N.
+20230531,19:25,Wawrinka S.,Kokkinakis T.
+20230531,19:10,Sonego L.,Humbert U.
+20230531,17:10,Carballes Baena R.,Tsitsipas S.
+20230531,17:10,Fognini F.,Kubler J.
+20230531,17:10,Ofner S.,Korda S.
+20230531,02:30,Monfils G.,Baez S.
+20230531,00:25,Monteiro T.,Hanfmann Y.
+20230531,00:10,Skatov T.,Dimitrov G.
+20230530,23:50,Mmoh M.,Fritz T.
+20230530,23:30,Gasquet R.,Rinderknech A.
+20230530,23:10,Halys Q.,Pella G.
+20230530,22:10,Rune H.,Eubanks C.
+20230530,22:05,Cerundolo F.,Munar J.
+20230530,21:15,Ruusuvuori E.,Barrere G.
+20230530,19:35,Seyboth Wild T.,Medvedev D.
+20230530,19:15,Bublik A.,Zeppieri G.
+20230530,19:00,Zverev A.,Harris L.
+20230530,18:35,Gaston H.,Molcan A.
+20230530,17:15,Mpetshi Perricard G.,Olivieri G. A.
+20230530,17:15,Purcell M.,Thompson J.
+20230530,17:15,Vavassori A.,Kecmanovic M.
+20230530,17:10,Jarry N.,Dellien H.
+20230530,17:10,Nishioka Y.,Wolf J.J.
+20230530,17:10,Paul T.,Stricker D.
+20230530,17:10,Ymer E.,Ruud C.
+20230530,02:30,Sinner J.,Muller A.
+20230530,01:35,van Assche L.,Cecchinato M.
+20230530,00:15,Zhang Z.,Lajovic D.
+20230529,23:50,Krajinovic F.,Tiafoe F.
+20230529,23:40,Alcaraz C.,Cobolli F.
+20230529,23:40,Altmaier D.,Huesler M.
+20230529,23:25,Fils A.,Davidovich Fokina A.
+20230529,23:20,Lehecka J.,Struff J-L.
+20230529,21:45,Medjedovic H.,Giron M.
+20230529,21:40,Thiem D.,Cachin P.
+20230529,21:25,Coric B.,Coria F.
+20230529,20:35,Van De Zandschulp B.,Tirante T. A.
+20230529,19:50,Djokovic N.,Kovacevic A.
+20230529,19:35,O'Connell C.,Daniel T.
+20230529,19:15,Wawrinka S.,Ramos A.
+20230529,19:10,Auger-Aliassime F.,Fognini F.
+20230529,19:00,Bautista-Agut R.,Wu Y.
+20230529,18:55,Popyrin A.,Karatsev A.
+20230529,18:45,Draper J.,Etcheverry T. M.
+20230529,17:10,Ivashka I.,De Minaur A.
+20230529,17:10,Nakashima B.,Shapovalov D.
+20230529,17:10,Paire B.,Norrie C.
+20230529,17:10,Shang J.,Varillas J. P.
+20230529,17:10,Zapata Miralles B.,Schwartzman D.
+20230529,01:35,Pouille L.,Rodionov J.
+20230529,01:15,Mannarino A.,Humbert U.
+20230529,00:45,Shevchenko A.,Otte O.
+20230528,23:55,Shelton B.,Sonego L.
+20230528,23:50,Cazaux A.,Moutet C.
+20230528,23:45,Djere L.,Rublev A.
+20230528,22:50,Musetti L.,Ymer M.
+20230528,21:45,Carballes Baena R.,Nava E.
+20230528,21:05,Arnaldi M.,Galan D. E.
+20230528,19:50,McDonald M.,Korda S.
+20230528,19:45,Isner J.,Borges N.
+20230528,19:35,Kubler J.,Diaz Acosta F.
+20230528,18:45,Vesely J.,Tsitsipas S.
+20230528,18:40,Fucsovics M.,Grenier H.
+20230528,18:10,Kokkinakis T.,Evans D.
+20230528,17:10,Goffin D.,Hurkacz H.
+20230528,17:10,Khachanov K.,Lestienne C.
+20230528,17:10,Kypson P.,Albot R.
+20230528,17:10,Martinez P.,Griekspoor T.
+20230528,17:10,Ofner S.,Cressy M.

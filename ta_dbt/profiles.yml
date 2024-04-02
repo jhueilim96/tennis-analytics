@@ -1,0 +1,9 @@
+ta_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ta.duckdb
+      threads: 8
+      extensions:
+        - fts
